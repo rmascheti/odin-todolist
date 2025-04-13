@@ -1,5 +1,7 @@
+@import '~@csstools/normalize.css';
+
 /* styles.css */
 body {
-  background-color: pink;
+  background-color: white;
 }
 

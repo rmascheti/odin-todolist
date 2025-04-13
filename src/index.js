@@ -3,7 +3,7 @@ import {Task} from "./task.js"
 import {TaskList} from "./tasklist.js";
 
 
-
+/*
 let taskList = new TaskList();
 
 
@@ -17,3 +17,4 @@ let div = document.querySelector("#tasks");
 
 
 div.textContent = taskList.getTasks()[1].getTaskDescription();
+*/
