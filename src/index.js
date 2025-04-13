@@ -1,6 +1,6 @@
 import "./styles.css";
-import {Task} from "./task.js"
-import {TaskList} from "./tasklist.js";
+import {Task} from "./modules/task.js"
+import {TaskList} from "./modules/tasklist.js";
 
 
 /*
