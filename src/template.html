@@ -6,7 +6,26 @@
     <title>Todo List</title>
   </head>
   <body>
-    <div id="nav"></div>
+    <div id="nav">
+      <div id="nav-alltasks"><button type="button">All Tasks</button></div>
+      <div id="nav-deadline" class="navs">
+        <div class="header-nav header-nav-deadline">Icon</div>
+        <div class="item-nav-deadline"><button>Today</button></div>
+        <div class="item-nav-deadline"><button>This Week</button></div>
+        <div class="item-nav-deadline"><button>This Month</button></div>
+      </div>
+      <div id="nav-groups" class="navs">
+        <div class="header-nav-groups">Icon +</div>
+        <div class="item-nav-groups"><button>Projects</button></div>
+      </div>
+      <div id="nav-priority" class="navs">
+        <div class="header-nav-priority">Icon</div>
+        <button><div class="item-nav-priority">Critical</div></button>
+        <button><div class="item-nav-priority">High</div></button>
+        <button><div class="item-nav-priority">Moderate</div></button>
+        <button><div class="item-nav-priority">Low</div></button>
+      </div>
+    </div>
     <div id="app"></div>
   
   </body>
